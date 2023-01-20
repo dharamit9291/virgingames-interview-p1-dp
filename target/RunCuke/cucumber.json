@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11011335200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should able to click Online Slot tab successfully",
+        "description": "",
+        "id": "online-slot-tab-click;user-should-able-to-click-online-slot-tab-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 839122800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 171670499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "OnlineSlotTabSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 723298700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Online Slot tab",
+            "match": {
+              "location": "OnlineSlotTabSteps.iClickOnOnlineSlotTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to Online Slot tab successfully",
+            "match": {
+              "location": "OnlineSlotTabSteps.iShouldNavigateToOnlineSlotTabSuccessfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67415400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify text \"Your Favourite Online Slots All in One Place\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Favourite Online Slots All in One Place",
+                  "offset": 13
+                }
+              ],
+              "location": "OnlineSlotTabSteps.verifyText(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Online Slot Tab Click",
+    "description": "As user I want to click on Online Slots tab",
+    "id": "online-slot-tab-click",
+    "keyword": "Feature",
+    "uri": "OnlineSlotTab.feature"
+  }
+]
